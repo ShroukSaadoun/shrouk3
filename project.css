@@ -1,0 +1,77 @@
+*{transition: 0.5s;}
+body{
+    background-image: url(pexels-ron-lach-8387115.jpg);
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}
+.main-div{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width :350px;
+    height: 420px;
+    background:rgba(11, 70, 109, 0.6);
+    border-radius: 15px;
+}
+h2{
+    color:white;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 35px;
+    font-weight: 400;
+    color:rgb(117, 247, 247)}
+input{
+    position: absolute;
+    border:none;
+    width: 250px;
+    height: 35px;
+    border-bottom: 2px solid skyblue;
+    background: none;
+    padding:5px;
+    outline:none;
+    color:rgb(255, 255, 255);
+    margin-top: -20px;
+}
+input[type="email"]{
+    top:140px;
+    left:50px;
+}
+input[type= "password"]{
+top:210px;
+left: 50px;
+}
+input::placeholder{
+    color:rgb(0, 255, 255)}
+    a{
+        padding-top: 7px;
+        text-decoration: none;
+        position:absolute;
+        top: 305px;
+        left: 10px;
+        width: 130px;
+        height: 35px;
+        background: rgb(0, 255, 255);
+        color:white;
+        border-radius: 15px;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 5px;
+        margin-left: 95px;
+
+    }
+
+    a:hover{
+        background: white;
+        color: rgb(0, 255, 255);
+    }
+    p{
+        color:rgb(0, 255, 255);
+        position: absolute;
+        bottom: 130px;
+        left: 60px;
+    }
+    p:hover{
+        color:white;
+    }
